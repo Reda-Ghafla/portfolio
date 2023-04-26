@@ -16,7 +16,7 @@ const Hero = () => {
             </h2>
           </div>
           <div className={styles.job}>
-            <h5>Junior Front End</h5>
+            <h5>Developper Front End</h5>
           </div>
           <p className={styles.desc}>
             Must explain to how all this mistaken idea denouncing pleasure pain
