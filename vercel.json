@@ -2,5 +2,5 @@
   "version": 2,
   "name": "express-api",
 
-  "rewrites": [{ "source": "/(.*)", "destination": "/api" }]
+  "rewrites": [{ "source": "/(*.js)", "destination": "/api" }]
 }

@@ -190,3 +190,40 @@
     color: var(--themeColorYellow);
     transition: all 1s ease-in;
 }
+
+@media screen and (max-width: 768px) {
+    .sousContainer {
+        flex-direction: column-reverse;
+    }
+
+    .left {
+        margin-left: 0.1rem;
+    }
+
+    .left, .right {
+        width: 90%;
+    }
+
+    .form {
+        padding: 1px 3px;
+    }
+
+    .label>label {
+        font-size: .8rem;
+    }
+
+    .textextArea {
+        padding: 2px;
+        height: 4rem;
+    }
+
+    .socialMedia {
+        margin-bottom: .5rem;
+    }
+
+    .span {
+        font-size: 2rem;
+        padding: .3rem;
+        margin-top: .5rem;
+    }
+}
