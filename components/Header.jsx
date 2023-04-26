@@ -1,5 +1,5 @@
-import { AiOutlineMail, AiFillPhone } from "react-icons/ai";
-import styles from "../styles/header.module.css";
+import { AiOutlineMail, AiFillPhone } from 'react-icons/ai';
+import styles from '../styles/header.module.css';
 
 function Header({ openNavbar, setOpenNavbar }) {
   //  const [openNavbar, setOpenNavbar] = useState(false)
@@ -9,26 +9,26 @@ function Header({ openNavbar, setOpenNavbar }) {
       <div className={styles.logo} onClick={() => setOpenNavbar(false)}>
         <div className={styles.logoContainer}>
           <span className={`${styles.span} ${openNavbar && styles.activeSpan}`}>
-            L
+            RE
           </span>
           <span
             className={`${styles.span} ${openNavbar && styles.activeSpan2}`}
           >
-            ogo
+            DA
           </span>
         </div>
       </div>
       <nav className={styles.navbar} onClick={() => setOpenNavbar(false)}>
         <div className={styles.list___navbar}>
           <span className={styles.item__span}>
-            {" "}
+            {' '}
             <span>
               <AiOutlineMail />
             </span>
             redaghafla@gmail.com
           </span>
           <span className={styles.item__span}>
-            {" "}
+            {' '}
             <span>
               <AiFillPhone />
             </span>

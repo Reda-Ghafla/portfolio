@@ -35,7 +35,7 @@ export default function Home({ result, resultT }) {
         <title>Reda Portfolio</title>
 
         <meta name="description" content="Portofolio Reda Ghafla" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/reda_favicon.png" />
       </Head>
 
       <main className={styles.main} id="home">
